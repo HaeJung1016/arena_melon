@@ -27,8 +27,8 @@ class PlaylistEmbedding:
         # word2vec의 요소들
         # 최소 1번 이상 연관이 있어야 학습한다.
         self.min_count = 2
-        # 의미를 담을 벡터를 100차원으로 만든다.
-        self.size = 300
+        # 의미를 담을 벡터를 150차원으로 만든다.
+        self.size = 150
         # 중심단어 기준으로 앞뒤로 210개 범위까지 학습시킨다.
         self.window = 210
         # sg = 1이면 skip-gram 아니면 CBOW
