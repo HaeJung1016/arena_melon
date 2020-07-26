@@ -454,7 +454,7 @@ class PlaylistEmbedding:
         self.write_json(self.answers, 'results.json')
         print("results 작성 완료")
 
-    def train(self):
+    def train_model(self):
         # Word2Vec ply_embedding
         self.get_dic(self.train, self.val)
         self.get_w2v(self.total, self.min_count, self.size, self.window, self.sg)
