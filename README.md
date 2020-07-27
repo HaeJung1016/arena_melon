@@ -32,6 +32,7 @@ Word2Vec과 FastText를 이용한 플레이리스트 예측 모델입니다.
 │   │    ├── song_meta.json
 │   │    └── most_popular_res.json
 │   ├── train
+│   │    ├── PlaylistEmbedding.py
 │   │    └── train.py
 │   ├── PlaylistEmbedding.py
 │   ├── inference.py
