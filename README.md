@@ -46,7 +46,7 @@ Word2Vec과 FastText를 이용한 플레이리스트 예측 모델입니다.
 
 ### 예측결과 재현
 arena_melon 폴더로 위치를 이동한 후 아래 코드를 실행시켜주세요.   
-예측 결과 파일은 ~~ 위치에 만들어집니다.    
+inference.py 파일이 있는 위치에 arena_data 폴더가 생성되고 그 안에 예측 결과 파일(results.json)이 만들어집니다.    
 ```
 $> python inference.py 
 ```
