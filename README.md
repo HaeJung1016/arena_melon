@@ -58,6 +58,8 @@ $> python inference.py
 ### 모델학습 재현
 arena_melon/train 위치로 이동 후 아래 코드를 실행시켜주세요.   
 이때 arena_melon/train 폴더에 "w2v_model.model", "FT_title_model.model" 이름의 학습된 모델 파일이 있을 경우 모델 학습 재현이 되지 않는 점 참고 부탁드립니다. 
+(Word2vec 모델의 경우 학습시간은 5시간정도 소요됩니다.)
+
 ```
 $> python train.py
 ```
