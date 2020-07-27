@@ -64,7 +64,7 @@ class PlaylistEmbedding:
         with open(FILE_PATH+'/song_meta.json', encoding="utf-8") as f:
             self.song_meta = json.load(f)
 
-    def write_json(data, fname):
+    def write_json(self, data, fname):
         def _conv(o):
             if isinstance(o, (np.int64, np.int32)):
                 return int(o)
@@ -76,7 +76,7 @@ class PlaylistEmbedding:
             json_str = json.dumps(data, ensure_ascii=False, default=_conv)
             f.write(json_str)
 
-    def remove_seen(seen, l):
+    def remove_seen(self, seen, l):
         seen = set(seen)
         return [x for x in l if not (x in seen)]
 
