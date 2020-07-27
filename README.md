@@ -60,6 +60,6 @@ arena_melon/train 위치로 이동 후 아래 코드를 실행시켜주세요.
 ```
 $> python train.py
 ```
-위 코드를 이용해 새롭게 생성된 모델로 예측 결과 재현이 필요하신 경우 train.json을 제외한
+위 코드를 이용해 새롭게 생성된 모델로 예측 결과 재현이 필요하신 경우 train.py 제외한
 모든 파일을 arena_melon 폴더로 옮긴 후 python inference.py를 실행시켜주세요.
 
