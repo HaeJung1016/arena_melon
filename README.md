@@ -1,7 +1,7 @@
 Word2Vec과 FastText를 이용한 플레이리스트 예측 모델입니다.   
 
 ***
-
+* 테스트 환경 : Google Colab   
 ### 필요한 데이터
 * 해당 모델 재현 시 필요한 데이터는 아래와 같습니다. 데이터를 ./dataset 폴더에 위치시켜주세요.   
   4번의 경우 ./dataset에 위치한 most_popular_res.json을 사용해주시면 됩니다.   
