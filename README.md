@@ -48,7 +48,7 @@ Word2Vec과 FastText를 이용한 플레이리스트 예측 모델입니다.
 arena_melon 폴더로 위치를 이동한 후 아래 코드를 실행시켜주세요.   
 예측 결과 파일은 ~~ 위치에 만들어집니다.    
 ```
-python inference.py 
+$> python inference.py 
 ```
 
 ***
@@ -58,7 +58,7 @@ python inference.py
 arena_melon/train 위치로 이동 후 아래 코드를 실행시켜주세요.   
 이때 arena_melon/train 폴더에 "w2v_model.model", "FT_title_model.model" 이름의 학습된 모델 파일이 있을 경우 모델 학습 재현이 되지 않는 점 참고 부탁드립니다. 
 ```
-python train.py
+$> python train.py
 ```
 위 코드를 이용해 새롭게 생성된 모델로 예측 결과 재현이 필요하신 경우 train.json을 제외한
 모든 파일을 arena_melon 폴더로 옮긴 후 python inference.py를 실행시켜주세요.
